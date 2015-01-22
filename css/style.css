@@ -1,0 +1,206 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+body { margin: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+
+audio:not([controls]) { display: none; height: 0; }
+
+[hidden], template { display: none; }
+
+a { background-color: transparent; }
+
+a:active, a:hover { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+mark { background: #ff0; color: #000; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img { border: 0; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 1em 40px; }
+
+hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
+
+pre { overflow: auto; }
+
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0; }
+
+button { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+input { line-height: normal; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+legend { border: 0; padding: 0; }
+
+textarea { overflow: auto; }
+
+optgroup { font-weight: bold; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+td, th { padding: 0; }
+
+/*! colors v2.0.4 | mit license | clrs.cc */
+.bg-aqua { background-color: #7fdbff; }
+
+.text-aqua { color: #7fdbff; }
+
+.bg-blue { background-color: #0074d9; }
+
+.text-blue { color: #0074d9; }
+
+.bg-navy { background-color: #001f3f; }
+
+.text-navy { color: #001f3f; }
+
+.bg-teal { background-color: #39cccc; }
+
+.text-teal { color: #39cccc; }
+
+.bg-green { background-color: #2ecc40; }
+
+.text-green { color: #2ecc40; }
+
+.bg-olive { background-color: #3d9970; }
+
+.text-olive { color: #3d9970; }
+
+.bg-lime { background-color: #01ff70; }
+
+.text-lime { color: #01ff70; }
+
+.bg-yellow { background-color: #ffdc00; }
+
+.text-yellow { color: #ffdc00; }
+
+.bg-orange { background-color: #ff851b; }
+
+.text-orange { color: #ff851b; }
+
+.bg-red { background-color: #ff4136; }
+
+.text-red { color: #ff4136; }
+
+.bg-fuchsia { background-color: #f012be; }
+
+.text-fuchsia { color: #f012be; }
+
+.bg-purple { background-color: #b10dc9; }
+
+.text-purple { color: #b10dc9; }
+
+.bg-maroon { background-color: #85144b; }
+
+.text-maroon { color: #85144b; }
+
+.bg-white { background-color: #ffffff; }
+
+.text-white { color: #ffffff; }
+
+.bg-silver { background-color: #dddddd; }
+
+.text-silver { color: #dddddd; }
+
+.bg-gray { background-color: #aaaaaa; }
+
+.text-gray { color: #aaaaaa; }
+
+.bg-black { background-color: #111111; }
+
+.text-black { color: #111111; }
+
+.bg-imas-red { background-color: #e22b30; }
+
+.text-imas-red { color: #e22b30; }
+
+.bg-imas-blue { background-color: #2743d2; }
+
+.text-imas-blue { color: #2743d2; }
+
+.bg-imas-white { background-color: #d3dde9; }
+
+.text-imas-white { color: #d3dde9; }
+
+.bg-imas-orange { background-color: #f39939; }
+
+.text-imas-orange { color: #f39939; }
+
+.bg-imas-green { background-color: #01a860; }
+
+.text-imas-green { color: #01a860; }
+
+.bg-imas-purple { background-color: #9238be; }
+
+.text-imas-purple { color: #9238be; }
+
+.bg-imas-pink { background-color: #fd99e1; }
+
+.text-imas-pink { color: #fd99e1; }
+
+.bg-imas-black { background-color: #515558; }
+
+.text-imas-black { color: #515558; }
+
+.bg-imas-yellow { background-color: #ffe43f; }
+
+.text-imas-yellow { color: #ffe43f; }
+
+.bg-imas-yellowgreen { background-color: #b4e04b; }
+
+.text-imas-yellowgreen { color: #b4e04b; }
+
+.bg-imas-carmine { background-color: #a6126a; }
+
+.text-imas-carmine { color: #a6126a; }
+
+.bg-imas-cyan { background-color: #01adb9; }
+
+.text-imas-cyan { color: #01adb9; }
+
+html { font-size: 16px; }
+
+@media screen and (max-width: 640px) { html { font-size: 12px; } }
+a { color: #0074d9; text-decoration: none; }
+
+.line { position: fixed; width: 100%; height: 8rem; line-height: 8rem; top: 50%; margin-top: -4rem; font-size: 5rem; font-weight: bold; text-align: center; }
+
+.contact { position: fixed; width: 100%; top: 50%; margin-top: 5rem; font-size: 1.2rem; text-align: center; }
