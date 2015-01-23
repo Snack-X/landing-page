@@ -54,3 +54,17 @@ a {
 	font-size: 1.2rem;
 	text-align: center;
 }
+
+.server {
+	float: left;
+	width: 33.3333%;
+	height: 25vh;
+	line-height: 25vh;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.server.disabled {
+	opacity: 0.25;
+}
