@@ -65,6 +65,14 @@ a {
 	text-align: center;
 }
 
+@media screen and (max-width: 640px) {
+	.server {
+		width: 100%;
+		height: 10vh;
+		line-height: 10vh;
+	}
+}
+
 .server.disabled {
 	opacity: 0.25;
 }
